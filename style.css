@@ -1,0 +1,162 @@
+/*------------------------------------------------------
+General Divisions
+*/
+.topMenu{
+    text-align: center;
+    width: 97%;
+    padding: 1.5%;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.mainContentContainer{
+    width: 97%;
+    padding: 1.5%;
+    border: 0px;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: justify!important;
+}
+
+.sideContentContainer{
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    padding: 0.5%;
+
+    text-align: justify!important;
+}
+
+.sideContent{
+    width: 87%;
+    background-color: #fadcfa;
+    padding-left: 3%;
+    padding-top: 0.5%;
+    margin-top: 8.5%;
+    border-radius: 5px;
+}
+
+.mainContent{
+    vertical-align: top;
+    width: 72%;
+    display: inline-block;
+    padding: 0.5%;
+    
+    text-align: justify!important;
+}
+
+.projectsHalfContent{
+    width: 47%;
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+/*------------------------------------------------------
+General Components
+*/
+body{
+    background: url("Img/bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+h1, h2{
+    color: #2a2aae;
+}
+
+a{
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:link{
+    color: #0a0a9e;
+}
+
+a:hover{
+    color: #4a4aff;
+}
+
+a:active, a:visited{
+    color: #ffca4a;
+}
+
+
+
+.profilePicture{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.upDate{
+    padding-top: 1.5%;
+
+    font-size: 10px;
+    font-style: italic;
+}
+
+.subHead{
+    font-size: 20px;
+    color: #0a0a9e;
+}
+
+.subHead2{
+    font-size: 16px;
+    font-style: italic;
+    color: #0a0a9e;
+}
+
+.sideTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a2aae;
+}
+
+
+
+.menuButton{
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #4a4aff;
+    border-radius: 5px;
+    margin: 0.5%;
+    background-color: #fafafa;
+    transition-duration: 0.4s;
+
+    font-weight: bold;
+    font-kerning: none;
+}
+
+.menuButton:hover{
+    border: 1px solid #4a4aff;
+    background-color: #4a4aff;
+    color: #fafafa;
+}
+
+.menuButton.active{
+    width: 30%;
+    padding: 1%;
+    border: 1px solid #ffca4a;
+    border-radius: 5px;
+    margin: 0.5%;
+    background-color: #fafafa;
+    transition-duration: 0.4s;
+
+    font-weight: bold;
+    font-kerning: none;
+}
+
+.menuButton.active:hover{
+    border: 1px solid #ffca4a;
+    background-color: #ffca4a;
+    color: #fafafa;
+}
