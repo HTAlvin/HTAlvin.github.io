@@ -121,6 +121,11 @@ a:active, a:visited{
     color: #2a2aae;
 }
 
+.projectsProgress{
+    color: #2a2aae;
+    font-style: oblique;
+}
+
 
 
 .menuButton{
