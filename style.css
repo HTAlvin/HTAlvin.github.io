@@ -82,12 +82,13 @@ a:link{
     color: #0a0a9e;
 }
 
-a:hover{
+a:visited{
     color: #4a4aff;
 }
 
-a:active, a:visited{
-    color: #ffca4a;
+a:hover, a:active{
+    color: #edaa3a;
+    text-decoration: underline;
 }
 
 
@@ -150,7 +151,7 @@ a:active, a:visited{
 .menuButton.active{
     width: 30%;
     padding: 1%;
-    border: 1px solid #ffca4a;
+    border: 1px solid #edaa3a;
     border-radius: 5px;
     margin: 0.5%;
     background-color: #fafafa;
@@ -161,7 +162,7 @@ a:active, a:visited{
 }
 
 .menuButton.active:hover{
-    border: 1px solid #ffca4a;
-    background-color: #ffca4a;
+    border: 1px solid #edaa3a;
+    background-color: #edaa3a;
     color: #fafafa;
 }
