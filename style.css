@@ -122,6 +122,18 @@ a:hover, a:active{
     color: #2a2aae;
 }
 
+.sideQuote{
+    width: 90%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    text-align: center!important;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: #2a2aae;
+}
+
 .projectsProgress{
     color: #2a2aae;
     font-style: oblique;
