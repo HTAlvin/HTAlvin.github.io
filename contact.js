@@ -32,11 +32,17 @@
 
         fetch("https://WebViewCounterAPI.alvin-hartantoh.repl.co/api/contact/submit", {method:"POST", mode:"cors", headers: {"Content-type":"application/json"}, body: jsonFormData})
         .then (response => {
+            if (document.getElementById("contactResult").className == "contactFailed") {
+                document.getElementById("contactResult").classList.remove("contactFailed");
+            }
             document.getElementById("contactResult").classList.add("contactSuccess");
             document.getElementById("contactResult").innerHTML = "Contact sent successfully!";
             return response.json();
         })
         .catch (error => {
+            if (document.getElementById("contactResult").className == "contactSuccess") {
+                document.getElementById("contactResult").classList.remove("contactSuccess");
+            }
             document.getElementById("contactResult").classList.add("contactFailed");
             document.getElementById("contactResult").innerHTML = "Failed to request contact.";
             console.log(error);
