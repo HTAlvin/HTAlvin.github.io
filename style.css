@@ -203,8 +203,8 @@ a:hover, a:active{
 
 
 .contactFormElements{
-    width: 80%;
-    resize: none;
+    width: 80%!important;
+    resize: none!important;
 }
 
 .contactFormButton{
