@@ -63,6 +63,19 @@ General Divisions
     vertical-align: top;
 }
 
+.contactSuccess{
+    width: 80%;
+    background-color: #4aca4a;
+    padding: 1%;
+    color: #1a791a;
+}
+
+.contactFailed{
+    width: 80%;
+    background-color: #ca1a1a;
+    padding: 1%;
+    color: #791a1a;
+}
 
 
 /*------------------------------------------------------
@@ -78,7 +91,7 @@ body{
     align-content: center;
 }
 
-h1, h2{
+h1, h2, h3{
     color: #2a2aae;
 }
 
@@ -183,6 +196,34 @@ a:hover, a:active{
 }
 
 .menuButton.active:hover{
+    border: 1px solid #edaa3a;
+    background-color: #edaa3a;
+    color: #fafafa;
+}
+
+
+.contactFormElements{
+    width: 80%;
+    resize: none;
+}
+
+.contactFormButton{
+    width: 25%;
+    padding: 1%;
+    border: 1px solid #4a4aff;
+    border-radius: 5px;
+    margin: 0.5%;
+    background-color: #fafafa;
+    transition-duration: 0.4s;
+}
+
+.contactFormButton:hover{
+    border: 1px solid #4a4aff;
+    background-color: #4a4aff;
+    color: #fafafa;
+}
+
+.contactFormButton:active{
     border: 1px solid #edaa3a;
     background-color: #edaa3a;
     color: #fafafa;

@@ -18,27 +18,32 @@
 		<div class="mainContentContainer">
 			<h1>Contacts</h1>
 			<hr>
-			<p>This page contains formal means of contact to myself. Kindly do introduce yourself and your purpose upon initiating contact, or otherwise you shall be treated as a spam.
-			<br>I would highly recommend contacting me through my primary contacts at first level being as I monitor them more often than my secondaries.</p>
+			<p>This page allows you to contact me through this form.
+			<br>I will return to your enlisted email as soon as possible. Thus, do ensure the attached email address is correct.</p>
 			<br>
-
-
-			<p><span class="subHead"><strong>Primary</strong></span>
-			<hr>
-			<br><a href="mailto:alvinhartanto757@gmail.com">Email: alvinhartanto757@gmail.com</a>
-			<br><a href="https://www.linkedin.com/in/alvin-hartanto-426554201/">LinkedIn</a>
-			<br><a href="https://wa.me/6282386883333">WA: +62 823-8688-3333</a>
-			<br><a href="tel:6282386883333">Mobile: +62 823-8688-3333</a></p>
+			<p id="contactResult"></p>
 			<br>
+			<form action="" onsubmit="formSubmit(event, this)" id="contactForm">
+				<label>Name*</label><br>
+				<input type="text" class="contactFormElements" id="contactName" name="cName" placeholder="Input name, e.g. John Doe" required><br>
+				<label>Email*</label><br>
+				<input type="text" class="contactFormElements" id="contactEmail" name="cEmail" placeholder="Kindly ensure your email is valid" required><br>
+				<label>Subject Title*</label><br>
+				<input type="text" class="contactFormElements" id="contactSubject" name="cSubject" placeholder="Subject, e.g. Project Mentle: Application Enquiry" required><br>
+				<label>Content*</label><br>
+				<textarea class="contactFormElements" id="contactContent" name="cContent" rows="6" placeholder="Content body" required></textarea>
 
-			<p><span class="subHead"><strong>Secondary</strong></span>
-			<hr>
-			<br><a href="mailto:edyah2@nottingham.ac.uk">Email: edyah2@nottingham.edu.my</a>
-			<br><a href="mailto:alvinhartanto@ambrrr.com">Email: alvinhartanto@ambrrr.com</a>
-			<br><a href="http://line.me/ti/p/~xs1stence">LINE: xs1stence</a></p>
+				<br>
+				<br>
+				<input class="contactFormButton" type="submit" id="Submit" name="Submit" value="Submit">
+			</form>
+
 
 		</div>
 
+		
         <div class="mainSpacer"></div>
+
     </body>
+	<script src="contact.js"></script>
 </html>
