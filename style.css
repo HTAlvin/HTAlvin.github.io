@@ -65,14 +65,14 @@ General Divisions
 
 .contactSuccess{
     width: 80%;
-    background-color: #4aca4a;
+    background-color: #9bdd9b;
     padding: 1%;
     color: #1a791a;
 }
 
 .contactFailed{
     width: 80%;
-    background-color: #ca1a1a;
+    background-color: #dd9b9b;
     padding: 1%;
     color: #791a1a;
 }
