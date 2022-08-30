@@ -204,8 +204,11 @@ a:hover, a:active{
 
 .contactFormElements{
     width: 80%!important;
+    padding: 0.5%;
     resize: none!important;
     margin-bottom: 1%;
+    border: 1px solid #4a4aff;
+    border-radius: 5px;
 }
 
 .contactFormButton{
@@ -213,7 +216,8 @@ a:hover, a:active{
     padding: 1%;
     border: 1px solid #4a4aff;
     border-radius: 5px;
-    margin: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     background-color: #fafafa;
     transition-duration: 0.4s;
 }
