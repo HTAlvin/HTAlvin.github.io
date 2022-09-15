@@ -14,7 +14,7 @@ function getView() {
         return response.json();
     })
     .then (data => {
-        document.getElementById("viewCount").innerHTML = "Total page view count: " + data.viewCount;
+        document.getElementById("viewCount").innerHTML = "Total views this month: " + data.viewCount;
     })
     .catch (error => {
         console.log(error);
